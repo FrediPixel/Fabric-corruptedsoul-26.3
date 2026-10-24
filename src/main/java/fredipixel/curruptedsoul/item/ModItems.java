@@ -1,4 +1,4 @@
-package fredipixel.curruptedsoul.items;
+package fredipixel.curruptedsoul.item;
 
 import fredipixel.curruptedsoul.CorruptedSoul;
 import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
@@ -13,7 +13,12 @@ import net.minecraft.world.item.Item;
 import java.util.function.Function;
 
 public class ModItems {
+
+
     public static final Item GLASS_FLASK = registerItem("glass_flask", Item::new);
+
+    public static final  Item FLASK_OF_SOULS = registerItem("flask_of_souls", Item::new);
+    public static final  Item SOUL_ALLOY = registerItem("soul_alloy", Item::new);
 
 
 
@@ -27,6 +32,7 @@ public class ModItems {
 
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(fabricCreativeModeTabOutput -> {
             fabricCreativeModeTabOutput.accept(GLASS_FLASK);
+            fabricCreativeModeTabOutput.accept(FLASK_OF_SOULS);
         });
     }
 }

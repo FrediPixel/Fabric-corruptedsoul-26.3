@@ -1,10 +1,11 @@
 package fredipixel.curruptedsoul;
 
-import fredipixel.curruptedsoul.items.ModItems;
+import fredipixel.curruptedsoul.block.ModBlocks;
+import fredipixel.curruptedsoul.creativemodetab.ModCreativeModeTabs;
+import fredipixel.curruptedsoul.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
-import net.minecraft.resources.Identifier;
-
+import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,8 +15,13 @@ public class CorruptedSoul implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModCreativeModeTabs.registerModCreativeModeTabs();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
 	}
+
 
 
 }

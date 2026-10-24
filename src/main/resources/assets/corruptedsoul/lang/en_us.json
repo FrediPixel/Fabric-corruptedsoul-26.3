@@ -1,5 +1,12 @@
 {
-  "item.corruptedsoul.glass_flask": "Glass Flask"
+  "item.corruptedsoul.glass_flask": "Glass Flask",
+  "item.corruptedsoul.flask_of_souls": "Flask of Souls",
+  "item.corruptedsoul.soul_alloy": "Soul Alloy",
 
+"block.corruptedsoul.block_of_soul_alloy": "Block of Soul Alloy ",
+
+
+
+  "creativemodetab.curruptedsoul.curruptedsoul": "Corrupted Soul"
 
 }

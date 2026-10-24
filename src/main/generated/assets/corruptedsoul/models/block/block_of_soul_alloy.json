@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "corruptedsoul:block/block_of_soul_alloy"
+  }
+}

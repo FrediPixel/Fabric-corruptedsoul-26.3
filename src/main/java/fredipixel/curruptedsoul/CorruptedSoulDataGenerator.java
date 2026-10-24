@@ -1,5 +1,6 @@
 package fredipixel.curruptedsoul;
 
+import fredipixel.curruptedsoul.datagen.ModBlockLootTableProvider;
 import fredipixel.curruptedsoul.datagen.ModModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
@@ -10,5 +11,8 @@ public class CorruptedSoulDataGenerator implements DataGeneratorEntrypoint {
 		var pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ModModelProvider::new);
+		pack.addProvider(ModBlockLootTableProvider::new);
+
+
 	}
 }

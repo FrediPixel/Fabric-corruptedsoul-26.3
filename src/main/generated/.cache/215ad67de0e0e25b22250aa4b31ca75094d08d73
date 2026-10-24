@@ -1,3 +1,10 @@
 // 26.3	-999999999-01-01T00:00:00	Corrupted Soul/Model Definitions
+dbb437d26c465e4bc954a46d5cd0b3ada077999b assets/corruptedsoul/blockstates/block_of_soul_alloy.json
+f2b32c6fc289d695a65dbc17306a2ee0c93dfefe assets/corruptedsoul/items/block_of_soul_alloy.json
+45dc753895560be75c235b408ddca82e3bf5eb87 assets/corruptedsoul/items/flask_of_souls.json
 c96b666e1e9394de0f8a02af856fbc011ed572c3 assets/corruptedsoul/items/glass_flask.json
+677647ecc55b783c9755dabac821b2cf819abb91 assets/corruptedsoul/items/soul_alloy.json
+314ea039f83f0a3faf6157020fa212b559dc5e3d assets/corruptedsoul/models/block/block_of_soul_alloy.json
+26b58d17a58e1ac430f26b3b82d42e19f2e77a74 assets/corruptedsoul/models/item/flask_of_souls.json
 ac971a60c2e8f2108275c0c5f153ecd82d618801 assets/corruptedsoul/models/item/glass_flask.json
+533e763d191dd1d269b93a50c1073f9e69f174c9 assets/corruptedsoul/models/item/soul_alloy.json
