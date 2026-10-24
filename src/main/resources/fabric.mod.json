@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "corruptedsoul",
+	"version": "${version}",
+	"name": "Corrupted Soul",
+	"description": "A Fun Corrupted souls mod",
+	"authors": [
+		"Fredi_Pixel"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FrediPixel/Fabric-corruptedsoul-26.3.git"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/corruptedsoul/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fredipixel.curruptedsoul.CorruptedSoul"
+		],
+		"fabric-datagen": [
+			"fredipixel.curruptedsoul.CorruptedSoulDataGenerator"
+		]
+	},
+	"mixins": [
+		"corruptedsoul.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
