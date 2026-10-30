@@ -1,6 +1,7 @@
 package fredipixel.curruptedsoul.item;
 
 import fredipixel.curruptedsoul.CorruptedSoul;
+import fredipixel.curruptedsoul.item.custome.GlassFlask;
 import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -15,10 +16,16 @@ import java.util.function.Function;
 public class ModItems {
 
 
-    public static final Item GLASS_FLASK = registerItem("glass_flask", Item::new);
+    public static final Item GLASS_FLASK = registerItem("glass_flask", properties -> new GlassFlask(properties.overrideDescription("Glass Flask")));
 
     public static final  Item FLASK_OF_SOULS = registerItem("flask_of_souls", Item::new);
     public static final  Item SOUL_ALLOY = registerItem("soul_alloy", Item::new);
+
+
+
+
+
+
 
 
 
